@@ -10,3 +10,5 @@ Confirm that UI components are accessible to users with disabilities.
 Test with screen readers and keyboard navigation.
 Ensure proper labeling of form elements and meaningful alternative text for images.
 Browser Compatibility:
+## hostlink of this project
+https://adarshkumar3.github.io/dailytasks/
