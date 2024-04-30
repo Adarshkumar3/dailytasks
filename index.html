@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UI Component Daily Tasks</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="task-list">
+  <h2>Today's Tasks</h2>
+  <div class="controls">
+    <input type="text" id="taskInput" placeholder="Add new task">
+    <button onclick="addTask()">Add Task</button>
+    <button onclick="clearCompleted()">Clear Completed</button>
+    <button onclick="clearAllTasks()" class="clear-button">Clear All Tasks</button>
+    <button onclick="sortTasks()">Sort Alphabetically</button>
+    <button onclick="movePriorityTasks()">Move Priority Tasks</button>
+  </div>
+  <h3>Important Tasks</h3>
+  <ul id="importantTasks">
+    <!-- Important tasks will be dynamically added here -->
+  </ul>
+  <h3>All Tasks</h3>
+  <ul id="tasks">
+    <!-- All tasks will be dynamically added here -->
+  </ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
